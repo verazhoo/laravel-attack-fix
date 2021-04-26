@@ -19,3 +19,6 @@ $endTimeA = microtime(true);
 echo '重新构建hash数组耗时：'.($endTimeA - $startTimeA).'s'.PHP_EOL;
 
 //var_dump(count($newArr));
+// 是 $param, 不是 $nerArr
+var_dump(count($param));
+

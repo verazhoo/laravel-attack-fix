@@ -69,6 +69,7 @@ class HashTable implements ArrayAccess, Countable
      */
     public function count()
     {
+        //计数只需要在添加与删除时维护一个变量即可，我就不写了哈~~
         static $count = 0;
         return ++$count;
     }
